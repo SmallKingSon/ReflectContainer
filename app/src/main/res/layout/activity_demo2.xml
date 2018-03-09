@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="view.smallkingson.com.reflectcontainer.Demo2Activity"
+    android:background="@android:color/black"
+    >
+  <view.smallkingson.com.lib.ReflectContainer
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      app:reflectionHeightRatio="0.5"
+      app:reflectionScale="0.8"
+      app:space="10"
+      >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp"
+        >
+      <ImageView
+          android:id="@+id/img_iv"
+          android:layout_width="500px"
+          android:layout_height="312px"
+          android:scaleType="fitXY"
+          android:src="@mipmap/meinv3"
+          />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="5dp"
+            android:text="这个女的好漂亮啊"
+            />
+    </LinearLayout>
+  </view.smallkingson.com.lib.ReflectContainer>
+</RelativeLayout>

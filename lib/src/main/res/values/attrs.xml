@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+    <declare-styleable name="ReflectContainer">
+        <attr name="reflectionHeightRatio" format="float" />
+        <attr name="reflectionScale" format="float" />
+        <attr name="space" format="integer" />
+    </declare-styleable>
+
+</resources>

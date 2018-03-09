@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="view.smallkingson.com.reflectcontainer.Demo1Activity"
+    >
+
+  <view.smallkingson.com.lib.ReflectContainer
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      app:reflectionHeightRatio="0.5"
+      app:reflectionScale="0.8"
+      app:space="10"
+      >
+    <ImageView
+        android:id="@+id/img_iv"
+        android:scaleType="fitXY"
+        android:layout_width="500px"
+        android:layout_height="312px"
+        android:src="@mipmap/meinv3"
+        />
+  </view.smallkingson.com.lib.ReflectContainer>
+
+</RelativeLayout>
